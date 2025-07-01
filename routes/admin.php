@@ -2,22 +2,23 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\DashboardController;
 
 Route::prefix('admin')->group(function () {
     // Authentication
-    // Route::group(['controller' => AdminController::class], function () {
-    //     Route::get('/login', 'loginPage')->name('login');
-    //     Route::post('/login', 'login')->name('doLogin');
-    //     Route::post('/logout', 'logout')->middleware('admin.auth')->name('logout');
-    //     Route::get('/forgot-password', 'forgotPasswordPage')->name('forgotPassword');
-    //     Route::post('/forgot-password', 'forgotPassword')->name('doForgotPassword');
-    //     Route::get('/reset-password/{token}', 'resetPasswordPage')->name('resetPassword');
-    //     Route::post('/reset-password', 'resetPassword')->name('doResetPassword');
-    // });
+    Route::group(['controller' => UserController::class], function () {
+        Route::get('/login', 'loginPage')->name('login');
+        Route::post('/login', 'login')->name('doLogin');
+        Route::post('/logout', 'logout')->middleware('auth:sanctum')->name('logout');
+        // Route::get('/forgot-password', 'forgotPasswordPage')->name('forgotPassword');
+        // Route::post('/forgot-password', 'forgotPassword')->name('doForgotPassword');
+        // Route::get('/reset-password/{token}', 'resetPasswordPage')->name('resetPassword');
+        // Route::post('/reset-password', 'resetPassword')->name('doResetPassword');
+    });
 
     // Dashboard
-    // Route::get('/', [DashboardController::class, 'root'])->name('root');
-    // Route::get('/dashboard', [DashboardController::class, 'dashboard'])->middleware('admin.auth')->name('dashboard');
+    Route::get('/', [DashboardController::class, 'root'])->name('root');
+    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->middleware('auth:sanctum')->name('dashboard');
 
     // Users
     Route::group(['prefix' => 'users', 'controller' => UserController::class], function () {

@@ -44,11 +44,11 @@
                                     <label class="custom-control-label" for="remember">Remember Me</label>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            {{-- <div class="col-6">
                                 <div class="forgot-password">
                                     <a href="{{ route('admin.forgotPassword') }}">Forgot Password?</a>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
 
                         <div class="row">

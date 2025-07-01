@@ -50,8 +50,8 @@
                                 <i class="dw dw-more"></i>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
-                                <a class="dropdown-item" href="{{ route('admin.userDetails', ['id' => $user['id']]) }}"><i class="dw dw-eye"></i> View</a>
-                                <form class="toggle-block-form" action="{{ route('admin.userToggleBlock', $user['id']) }}" method="POST" style="display: inline;">
+                                {{-- <a class="dropdown-item" href="{{ route('admin.userDetails', ['id' => $user['id']]) }}"><i class="dw dw-eye"></i> View</a> --}}
+                                {{-- <form class="toggle-block-form" action="{{ route('admin.userToggleBlock', $user['id']) }}" method="POST" style="display: inline;"> --}}
                                     @csrf
                                     <button type="submit" class="dropdown-item">
                                         <i class="dw dw-{{ $user['is_blocked'] ? 'unlock' : 'lock' }}"></i>
