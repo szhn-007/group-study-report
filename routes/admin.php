@@ -20,11 +20,11 @@ Route::prefix('admin')->group(function () {
     // Route::get('/dashboard', [DashboardController::class, 'dashboard'])->middleware('admin.auth')->name('dashboard');
 
     // Users
-    Route::group(['prefix' => 'users', 'middleware' => ['admin.auth'], 'controller' => UserController::class], function () {
+    Route::group(['prefix' => 'users', 'controller' => UserController::class], function () {
         Route::get('/', 'list')->name('usersList');
-        Route::get('/{id}', 'details')->name('userDetails');
-        Route::get('/{id}/download-qr', 'downloadQr')->name('userQrDownload');
-        Route::post('/{id}/toggle-block', 'toggleBlock')->name('userToggleBlock');
+        // Route::get('/{id}', 'details')->name('userDetails');
+        // Route::get('/{id}/download-qr', 'downloadQr')->name('userQrDownload');
+        // Route::post('/{id}/toggle-block', 'toggleBlock')->name('userToggleBlock');
     });
 
     // Countries

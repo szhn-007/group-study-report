@@ -1,0 +1,212 @@
+[
+    {
+        "name": "Aqa Wajih Kazmi",
+        "email": "wajih.kazmi@gmail.com",
+        "password": "password123",
+        "phone": "+923359571707",
+        "role": "admin"
+    },
+    {
+        "name": "Ali Akbar",
+        "email": "ali.akbar@gmail.com",
+        "password": "password123",
+        "phone": "+923364031610",
+        "role": "user"
+    },
+    {
+        "name": "Ali Kazmi",
+        "email": "ali.kazmi@gmail.com",
+        "password": "password123",
+        "phone": "+923344261987",
+        "role": "user"
+    },
+    {
+        "name": "Ali Muhammad",
+        "email": "ali.gillani@gmail.com",
+        "password": "password123",
+        "phone": "+923004073451",
+        "role": "creator"
+    },
+    {
+        "name": "Ali Muhammad N",
+        "email": "ali.muhammad@gmail.com",
+        "password": "password123",
+        "phone": "+923070970877",
+        "role": "user"
+    },
+    {
+        "name": "Ali Muqaddas",
+        "email": "ali.muqaddas@gmail.com",
+        "password": "password123",
+        "phone": "+923208541575",
+        "role": "creator"
+    },
+    {
+        "name": "Ali Zunair",
+        "email": "ali.zunair@gmail.com",
+        "password": "password123",
+        "phone": "+923302829731",
+        "role": "user"
+    },
+    {
+        "name": "Dur e Muhammad",
+        "email": "dur.muhammad@gmail.com",
+        "password": "password123",
+        "phone": "+923135988823",
+        "role": "user"
+    },
+    {
+        "name": "Hassan Abbas",
+        "email": "hassan.abbas@gmail.com",
+        "password": "password123",
+        "phone": "+923144758412",
+        "role": "user"
+    },
+    {
+        "name": "Hassan Zaidi",
+        "email": "hassan.zaidi@gmail.com",
+        "password": "password123",
+        "phone": "+923111427055",
+        "role": "admin"
+    },
+    {
+        "name": "Hussain Kazmi",
+        "email": "hussain.kazmi@gmail.com",
+        "password": "password123",
+        "phone": "+923334158887",
+        "role": "user"
+    },
+    {
+        "name": "Irfan Naqvi",
+        "email": "irfan.naqvi@gmail.com",
+        "password": "password123",
+        "phone": "+923145778806",
+        "role": "user"
+    },
+    {
+        "name": "Johar Zaidi",
+        "email": "johar.zaidi@gmail.com",
+        "password": "password123",
+        "phone": "+923364304566",
+        "role": "creator"
+    },
+    {
+        "name": "Kumail Abidi",
+        "email": "kumail.abidi@gmail.com",
+        "password": "password123",
+        "phone": "+923218345229",
+        "role": "creator"
+    },
+    {
+        "name": "Moeez Zaidi",
+        "email": "moeez.zaidi@gmail.com",
+        "password": "password123",
+        "phone": "+923315855038",
+        "role": "user"
+    },
+    {
+        "name": "Mohsin Raza",
+        "email": "mohsin.raza@gmail.com",
+        "password": "password123",
+        "phone": "+923406259851",
+        "role": "user"
+    },
+    {
+        "name": "Muhammad Raza",
+        "email": "muhammad.raza@gmail.com",
+        "password": "password123",
+        "phone": "+923472756300",
+        "role": "user"
+    },
+    {
+        "name": "Muhammad Raza N",
+        "email": "raza.yosuf@gmail.com",
+        "password": "password123",
+        "phone": "+923005765768",
+        "role": "user"
+    },
+    {
+        "name": "Muhammad Rizvi",
+        "email": "muhammad.rizvi@gmail.com",
+        "password": "password123",
+        "phone": "+923364785357",
+        "role": "user"
+    },
+    {
+        "name": "Mujtaba Jaffari",
+        "email": "mujtaba.jaffari@gmail.com",
+        "password": "password123",
+        "phone": "+923024703042",
+        "role": "user"
+    },
+    {
+        "name": "Mujtaba Kazmi",
+        "email": "mujtaba.kazmi@gmail.com",
+        "password": "password123",
+        "phone": "+923313051661",
+        "role": "user"
+    },
+    {
+        "name": "Murtaza Amer",
+        "email": "murtaza.amer@gmail.com",
+        "password": "password123",
+        "phone": "+923244952422",
+        "role": "user"
+    },
+    {
+        "name": "Raza Zaidi",
+        "email": "raza.zaidi@gmail.com",
+        "password": "password123",
+        "phone": "+923164729477",
+        "role": "creator"
+    },
+    {
+        "name": "Rizwan Haider",
+        "email": "rizwan.haider@gmail.com",
+        "password": "password123",
+        "phone": "+923004703600",
+        "role": "user"
+    },
+    {
+        "name": "Rizwan Kazmi",
+        "email": "rizwan.kazmi@gmail.com",
+        "password": "password123",
+        "phone": "+923058457865",
+        "role": "user"
+    },
+    {
+        "name": "Shahzad Jaffari",
+        "email": "shahzad.jaffari@gmail.com",
+        "password": "password123",
+        "phone": "+923204801326",
+        "role": "admin"
+    },
+    {
+        "name": "Subhan Zaidi",
+        "email": "subhan.zaidi@gmail.com",
+        "password": "password123",
+        "phone": "+96899103097",
+        "role": "user"
+    },
+    {
+        "name": "Zain Kazmi",
+        "email": "zain.kazmi@gmail.com",
+        "password": "password123",
+        "phone": "+923054198917",
+        "role": "user"
+    },
+    {
+        "name": "Zohaib Naqvi",
+        "email": "zohaib.naqvi@gmail.com",
+        "password": "password123",
+        "phone": "+923314911494",
+        "role": "admin"
+    },
+    {
+        "name": "Zuhair Zaidi",
+        "email": "zuhair.zaidi@gmail.com",
+        "password": "password123",
+        "phone": "+923344455489",
+        "role": "user"
+    }
+]
