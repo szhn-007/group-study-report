@@ -24,7 +24,7 @@ class UserService
 
         $remember = $request->filled('remember');
 
-        $loggedIn = Auth::attempt([
+        $loggedIn = Auth::guard('web')->attempt([
             'email' => $request['email'],
             'password' => $request['password']
         ], $remember);
